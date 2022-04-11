@@ -9,10 +9,25 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body id="home">
-
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-        <div class="container-fluid">
-            <ul class="navbar-nav">
+<header>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="resources/poppy_field.mp4" type="video/mp4">
+  </video>
+    <div class="d-flex align-items-center h-100">
+        <div class="container text-center text-white">
+            <h1>Bárdi Zsuzsanna</h1>
+            <h2>Gyerek jóga</h2>
+        </div>
+    </div>
+</header>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#home">Zsuzsi jóga</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="navbar-item">
                     <a class="nav-link text-white" href="#home">Címlap</a>
                 </li>
@@ -27,25 +42,15 @@
                 </li>
             </ul>
         </div>
-    </nav>
-<header>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="resources/poppy_field.mp4" type="video/mp4">
-  </video>
-    <div class="d-flex align-items-center h-100">
-        <div class="container text-center text-white">
-            <h1>Bárdi Zsuzsanna</h1>
-            <h2>Gyerek jóga</h2>
-        </div>
     </div>
-</header>
+</nav>
 <div class="container-fluid p-5 my-5" id="rolam">
     <div class="row">
-        <div class="col-md-7">
+        <div class="col-sm-7">
             <h1>Rólam</h1>
             <p class="justify-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat ex in sem auctor ullamcorper vitae sed massa. Donec elementum nunc eu pharetra tincidunt. Suspendisse potenti. Mauris iaculis vehicula ligula. Sed quis nibh nec tellus elementum venenatis. Sed fringilla nisl a mauris tincidunt ultrices. Vivamus convallis, metus in malesuada commodo, lorem ante interdum ipsum, ornare rhoncus erat tortor et purus. Vestibulum tincidunt mauris id mauris sodales, eget aliquam felis viverra. Ut at efficitur nunc, sed euismod magna. Duis iaculis, nisl eu laoreet imperdiet, diam est condimentum ex, eget volutpat ex urna in massa. Quisque blandit vitae mi interdum tincidunt.</p>
         </div>
-        <div class="col-md-5">
+        <div class="col-sm-5">
             <img class="img-fluid rounded float-end" src="resources/avatar.jpeg" alt="Avatar image">
         </div>
     </div>
@@ -53,10 +58,10 @@
 
 <div class="container-fluid p-5 my-5 bg-light" id="joga">
     <div class="row">
-        <div class="col-md-5">
-            <img class="img-fluid float-start" src="resources/kids_yoga.png" alt="Kids yoga instruction">
+        <div class="col-sm-5">
+            <img class="img-fluid rounded float-start" src="resources/kids_yoga.png" alt="Kids yoga instruction">
         </div>
-        <div class="col-md-7">
+        <div class="col-sm-7 order-first order-sm-last">
             <h1>A gyerek jógáról</h1>
             <p class="justify-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat ex in sem auctor ullamcorper vitae sed massa. Donec elementum nunc eu pharetra tincidunt. Suspendisse potenti. Mauris iaculis vehicula ligula. Sed quis nibh nec tellus elementum venenatis. Sed fringilla nisl a mauris tincidunt ultrices. Vivamus convallis, metus in malesuada commodo, lorem ante interdum ipsum, ornare rhoncus erat tortor et purus. Vestibulum tincidunt mauris id mauris sodales, eget aliquam felis viverra. Ut at efficitur nunc, sed euismod magna. Duis iaculis, nisl eu laoreet imperdiet, diam est condimentum ex, eget volutpat ex urna in massa. Quisque blandit vitae mi interdum tincidunt.</p>
         </div>
@@ -70,15 +75,15 @@
         </div>
     <form>
         <div class="row mb-3">
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <label for="inputName">Név</label>
                 <input type="text" class="form-control" id="inputName" placeholder="Neved">
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <label for="inputEmail">Email</label>
                 <input type="email" class="form-control" id="inputEmail" placeholder="email@cimed.hu">
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <label for="inputPhone">Telefonszám</label>
                 <input type="text" class="form-control" id="inputPhone" placeholder="+36 11 222 3333">
             </div>
@@ -100,15 +105,15 @@
     <div class="container-fluid bg-secondary">
         <div class="container p-5">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4 order-2 order-sm-1">
                     <a href="#">Youtube</a><br>
                     <a href="#">Instagram</a><br>
                     <a href="#">Facebook</a>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-sm-4 text-center order-1 order-sm-2">
                     <p>Bárdi Zsuzsanna - Gyerekjóga</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4 order-3 order-sm-3">
                     <p>Bárdi Zsuzsanna<br>2635 Vámosmikola<br>Ipoly utca 37<br>Adószám:</p>
                 </div>
             </div>

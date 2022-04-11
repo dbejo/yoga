@@ -64,3 +64,9 @@ footer a:hover {
     text-decoration: none;
     color: #ced4da;
 }
+
+@media (min-width: 768px){
+    .navbar-brand {
+        display: none;
+    }
+}
