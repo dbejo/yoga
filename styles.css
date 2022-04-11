@@ -11,12 +11,12 @@ header {
 }
 
 header h1 {
-    font-size: 60pt;
+    font-size: 40pt;
     text-shadow: 5pt 5pt 15pt black;
 }
 
 header h2 {
-    font-size: 30pt;
+    font-size: 20pt;
     text-shadow: 5pt 5pt 15pt black;
 }
 
@@ -70,12 +70,12 @@ footer a:hover {
     }
 
     header h1 {
-        font-size: 40pt;
+        font-size: 60pt;
         text-shadow: 5pt 5pt 15pt black;
     }
     
     header h2 {
-        font-size: 20pt;
+        font-size: 30pt;
         text-shadow: 5pt 5pt 15pt black;
     }
 }
