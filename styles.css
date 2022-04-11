@@ -20,6 +20,7 @@ header h2 {
     text-shadow: 5pt 5pt 15pt black;
 }
 
+
 header overlay {
     position: absolute;
     top: 0;
@@ -49,12 +50,6 @@ header .container {
     height: 100%;
 }
 
-@media (min-width: 768px) {
-    .img-fluid {
-        max-width: 60% !important;
-    }
-}
-
 footer a {
     text-decoration: none;
     color: #212529;
@@ -65,8 +60,22 @@ footer a:hover {
     color: #ced4da;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
+    .img-fluid {
+        max-width: 60% !important;
+    }
+
     .navbar-brand {
         display: none;
+    }
+
+    header h1 {
+        font-size: 40pt;
+        text-shadow: 5pt 5pt 15pt black;
+    }
+    
+    header h2 {
+        font-size: 20pt;
+        text-shadow: 5pt 5pt 15pt black;
     }
 }
